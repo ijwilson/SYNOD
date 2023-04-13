@@ -1,7 +1,7 @@
 
 # SYNOD
 
-## Targeted CopY Numbers frOm Depth
+## Targeted copY Numbers frOm Depth
 
 
 ![Relative Depths in Chromosome 11](docs/chr11.png "chromosome 11 depth")
