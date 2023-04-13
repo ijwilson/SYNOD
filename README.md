@@ -36,5 +36,5 @@ local storage requirements.
 ## Documents
 
 * [Obtaining Region Files](docs/regions.md)
-* [Analysing the 1000 Genomes](docs/1000_Genomes)
-* [Trios from the 1000 Genomes](docs/1K_Genomes_trios)
+* [Analysing the 1000 Genomes](docs/1000_Genomes.md)
+* [Trios from the 1000 Genomes](docs/1K_Genomes_trios.md)
