@@ -1,11 +1,18 @@
 
 # SYNOD
 
-Targeted CopY Numbers frOm Depth
+## Targeted CopY Numbers frOm Depth
+
+
+![Relative Depths in Chromosome 11](docs/chr11.png "chromosome 11 depth")
 
 ## Introduction
 
-This website describes and distributes files to use
+This website describes the methods used in the paper XXXX.  This paper is based on work
+done on Genomics England.  That data is inaccessible except for approved projects.  The documents here
+use examples based on the 1000 Genomes data which is freely available.
+
+  and distributes files to use
 a very straightforward method to look for deletions and duplications
 from alignment data.
 
