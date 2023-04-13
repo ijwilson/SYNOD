@@ -1,7 +1,7 @@
 
 # SYNOD
 
-## Targeted copY Numbers frOm Depth
+## Simple copY Numbers frOm Depth
 
 
 ![Relative Depths in Chromosome 11](docs/chr11.png "chromosome 11 depth")
@@ -36,5 +36,6 @@ local storage requirements.
 ## Documents
 
 * [Obtaining Region Files](docs/regions.md)
+* [Example](docs/example.md)
 * [Analysing the 1000 Genomes](docs/1000_Genomes.md)
 * [Trios from the 1000 Genomes](docs/1K_Genomes_trios.md)

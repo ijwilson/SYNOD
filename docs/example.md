@@ -1,11 +1,11 @@
 
-# Example *NPHP1* deletions in 1000 genomes
+# Example Chromosome 11 for NA20752 from 1000G
 
-To perform this example we need
+To perform this example we need to create
 
-* bam files
-* a set of genes to check.  See the [scripts/get_regions.r](../scripts/get_regions.r) file.
-* [https://lomereiter.github.io/sambamba/](sambamba) and [samtools](https://samtools.github.io/bcftools/howtos/roh-calling.html) installed on a local system.
+* BAM files
+* A set of genes to check.  See the [scripts/get_regions.r](../scripts/get_regions.r) file to get `wide_autosomal.bad`.
+* [sambamba](https://lomereiter.github.io/sambamba/) and [samtools](https://samtools.github.io/bcftools/howtos/roh-calling.html) installed on a local system.
 
 The instructions depend on using a linux system, or a windows linux subsystem [WSL](https://learn.microsoft.com/en-us/windows/wsl/install).
 
@@ -101,16 +101,6 @@ g$col <- c("red","magenta","lightgrey","cyan","green")[as.integer(g$cn)]
 kpPlotRegions(kp, g[g$cn != "2"], col=g$col[g$cn != 2])
 kpPoints(kp, data = g, y = g$relative_depth, ymax=5, ymin=0)
 kpAxis(kp, ymin=0, ymax=5, numticks=6)
-
-
-
-
 ```
 
-
-
-
-
-
-
-```
+![Relative Depths in Chromosome 11](chr11.png "chromosome 11 depth")
