@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Look for all the utah individuals then get the depths
+
+text_to_find="Utah"
+results_dir=$HOME/data/depth
+mkdir -p $results_dir
+
+grep $text_to_find ../data/all_1000G_samples.tsv | cut -f1 > target.txt
+
+sbatch --array=1-179%6 array_remote.sh target.txt
+
