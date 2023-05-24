@@ -5,8 +5,9 @@ The following R code gives you a file `gene_regions38.bed` the same as the
 one used in the Genomics England analyses.  This needs the `rtracklayer`
 Bioconductor library.
 
-Further code in [get_regions.r](../R/get_regions.r) gives you a set of wide (>=8000 bp) regions and a random set of 100 regions.  This set of regions is 
-in the file [100_regions.bed](../data/100_regions.bed)
+Further code in [get_regions.r](../R/get_regions.r) gives you a set of
+wide (>=8000 bp) regions and a random set of 100 regions.  This set of
+regions is in the file [data/100_regions.bed](../data/100_regions.bed)
 
 ```{r}
 library(rtracklayer)
@@ -23,4 +24,5 @@ write.table(df, file = "gene_regions38.bed",
 
 ![a histogram of region widths](violin.png "Violin plot of region widths")
 
-For depth calculations we generally use only those regions with a gene name and width of at least 8000 bases.
+For depth calculations we generally use only those regions with a gene name and
+width of at least 8000 bases.
