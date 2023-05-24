@@ -1,15 +1,15 @@
 #!/bin/bash 
 
-working_dir=${HOME}/git/delocalise
+working_dir=${HOME}/git/SYNOD
 
 set -e
 samtools quickcheck $1 $2 $3 
 
 cramfiles=($1 $2 $3)
 
-reffile=${working_dir}/data/GRCh38_full_analysis_set_plus_decoy_hla.fa
+reffile=${HOME}/reference/GRCh38_full_analysis_set_plus_decoy_hla.fa
 region_file=${working_dir}/data/100_regions.bed
-scratch_dir=/scratch/nijw/bam
+scratch_dir=/tmp/bam
 bamfiles=()
 delfiles=()   ## keeps track of files to delete at the end
 

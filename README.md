@@ -8,15 +8,17 @@
 
 ## Introduction
 
-This website describes the methods used in the paper XXXX.  This paper is based on work
-done on Genomics England.  That data is inaccessible except for approved projects.  The documents here
-use examples based on the 1000 Genomes data which is freely available.
+This website describes the methods used in the paper XXXX.  This paper is based
+on work done on the Genomics England rare diseases data.  That data is
+inaccessible except for approved projects.  The documents here
+use examples based on 1000 Genomes alignment data which is freely available.
 
   and distributes files to use
 a very straightforward method to look for deletions and duplications
 from alignment data.
 
-The technique is very simple and can be done wither genome-wide or for smaller regions of the genome.
+The technique is very simple and can be done either genome-wide or for smaller
+regions of the genome.
 
 Included are files to look for whole gene deletions from the 1000 genome
 30x alignment files, to post-process the files and to extract small regions

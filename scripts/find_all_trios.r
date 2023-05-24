@@ -2,7 +2,7 @@
 
 library(data.table)
 #'
-#' The files for our analyses can be foundin the directory
+#' The files for our analyses can be found in the directory
 #' http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/1000G_2504_high_coverage/
 #' on the 1000 genomes data site.
 #'
