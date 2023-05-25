@@ -95,4 +95,4 @@ head(singletons)
 nrow(singletons)
 
 cat(file_locations[singletons$Individual_ID],
-     file = "100G_singletons.txt", sep = "\n")
+     file = "1000G_singletons.txt", sep = "\n")
