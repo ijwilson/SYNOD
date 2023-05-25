@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-#SBATCH --account=hcexsukb
+#SBATCH --account=XXXXXXXXXX
 #SBATCH --mail-type=NONE
 #SBATCH --array=1-2%2
 #SBATCH -e jobs/myjob_%A_%a.err
@@ -12,7 +12,7 @@ cramfiles=${list[$SLURM_ARRAY_TASK_ID-1]}
 
 module load SAMtools
 
-./depths_trio.sh $cramfiles $SLURM_ARRAY_TASK_ID
+./depths_inds.sh $cramfiles
 
 
 
