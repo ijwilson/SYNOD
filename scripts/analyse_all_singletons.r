@@ -28,3 +28,13 @@ results <- cbind(pos, cn)
 
 table(cn[results$symbol == "NPHP1", ])
 table(cn[results$symbol == "PQLC2", ])
+
+ebi_dir <- "http://ftp.1000genomes.ebi.ac.uk/"
+ftp_dir <- "vol1/ftp/data_collections/1000G_2504_high_coverage"
+
+ped_address <- file.path(ebi_dir, ftp_dir,
+                               "20130606_g1k_3202_samples_ped_population.txt")
+
+ped <- read.table(ped_address, header = TRUE)
+colnames(ped)[1:4] <-
+              c("Family_ID", "Individual_ID", "Paternal_ID", "Maternal_ID")
